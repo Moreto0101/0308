@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;600;900&display=swap');
+body{font-family: 'Noto Serif TC', serif;}
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1 {
+    color: #E18B2A;
+    text-align: center;
+    font-size: 53px;
+}
+nav {
+    text-align: center;
+
+}
+nav h4 {
+}
+nav a:link   {
+    color: #1F5EC1;
+}
+nav a:hover {
+    color: #EB4C27;
+    font-size: 20px;
+}
+.heroimg {
+    height: 289px;
+    background-color: #E4BEBF;
+    background-image: url(0M5A5567.jpeg);
+    background-position: 53% 44%;
+    border-radius: 52px;
+}
+article h3 {
+    background-color: #FDF3C8;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
